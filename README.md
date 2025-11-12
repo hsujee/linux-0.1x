@@ -41,6 +41,8 @@ cd Linux-0.1x
 make
 ```
 
+> 注：编译时build.sh没有权限的问题，可通过如下命令解决。 `chmod 777 tools/build.sh`
+
 * 在 qemu 上启动 Linux-0.1x
 
 ```shell
